@@ -1,0 +1,66 @@
+body {
+    background-color:#B1DDF1;
+}
+
+.maintext {
+  margin-left:100px;
+  margin-right:100px;
+  font-family: 'Varela Round';
+  color:#136F63;
+}
+
+button {
+    background-color:#9F87AF;
+    
+    border-color:#88527F;
+    border-width:5px;
+    border-radius:20px; 
+    border-style:solid;
+    
+}
+
+
+.actionButton .parent {
+  display: table;
+  text-align: center;
+  margin-left: 27%
+}
+
+
+.actionButton bottom {
+  display: table-footer-group;
+}
+
+
+.actionButton .top {
+  display: table-header-group;
+  font-family: 'Righteous';
+  text-align: center;
+}
+
+h1 {
+  text-align:center;
+  font-family:'Righteous';
+  font-size: 50px;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #454B66;
+    color: #9CA3DB;
+    text-align: center;
+    font-family: 'Righteous';
+}
+
+table {
+  width:90%;
+  border:0;
+
+
+
+
+
