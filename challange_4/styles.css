@@ -1,11 +1,42 @@
-body {
-    background-color: #C3A29E;
-} 
-
-.jumbotron{
-    background-color: #B185A7;
-}
 
 .card {
-    background-color: #E8DBC5;
-}
+        
+        border-radius:10px;
+        background-color:#f9f9f9 ;
+        font-family: 'Comfortaa', cursive;
+        text-align:center;
+      }
+      
+      footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height:50px;
+      }
+      
+    img {
+        padding:20px;
+        
+      }
+      
+    body {
+        background-color:#7F96FF
+      }
+      
+    .jumbotron{
+        background-color:#EE6C4D;
+        font-family: 'Righteous', cursive;
+      }
+    
+    nav {
+      font-family: 'Comfortaa', cursive;
+      
+    }
+    
+    ul {
+      list-style-type:none;
+      text-align:left;
+    }
