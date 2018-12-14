@@ -1,0 +1,111 @@
+body {
+    background-color: #E5D35F;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.row {
+    margin:5%;
+}
+
+.card-img-top {
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center {
+    margin: auto;
+}
+
+.card-img-top {
+    margin-top:5px;
+}
+
+footer {
+    background-color:#1E526A !important;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 100;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.tinyimg {
+    width:7%;
+    height:auto;
+    max-width:50;
+}
+
+.footer {
+    max-height:5%;
+}
+
+
+.post-title {
+    font-family: 'Graduate', cursive;
+}
+
+p {
+    font-family: 'News Cycle', sans-serif;
+}
+
+.card {
+    border-width:2px;
+    border-color: #1E526A;
+}
+
+.card-title{
+   color: #1E526A !important; 
+}
+
+hr {
+    color:#1E526A;
+}
+
+table{
+    width:100%;
+}
+
+th {
+    font-family: 'Graduate', cursive;
+    
+    font-size: 150%;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.tha {
+    text-align:left !important;
+}
+.thb {
+    text-align:right !important;
+}
+.left {
+       font-family: 'News Cycle', sans-serif;
+       text-align:left;
+       font-size:20%;
+}
+
+.right {
+       font-family: 'News Cycle', sans-serif;
+       text-align:right;
+       font-size:20%;
+}
+
+.Riverdale {
+    font-family: 'Graduate', cursive;
+}
+
+.BlueGold {
+    font-family: 'News Cycle', sans-serif;
+}
+
