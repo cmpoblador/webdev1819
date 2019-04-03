@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+<canvas id="myCanvas" width="500" height="500">
+Your browser does not support the canvas element.
+</canvas>
+
+<script>
+var canvas = document.querySelector("#myCanvas");
+var context = canvas.getContext("2d");
+
+context.beginPath();
+context.moveTo(50, 150);
+context.lineTo(200, 150);
+context.moveTo(62, 150);
+context.lineTo(62, 300);
+context.lineTo(200, 300);
+context.moveTo(275, 315);
+context.lineTo(275, 150);
+context.lineTo(385, 150);
+context.lineTo(385, 250);
+context.lineTo(275, 250);
+
+
+
+
+
+context.lineWidth = 25;
+context.strokeStyle = "pink";
+ 
+context.stroke();
+
+</script>
+
+
+
+
+</body>
+</html>
