@@ -97,7 +97,7 @@ function draw(){
 		if(x > paddleX && x < paddleX + paddleWidth) {
 			dy = -dy
 		}else {
-			//GameOver
+			if(!alert("Game Over")){window.location.reload();}
 		}
 	}
 
