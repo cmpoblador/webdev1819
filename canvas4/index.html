@@ -18,6 +18,7 @@ var dx = 2;
 var dy = -2;
 
 var score = 0;
+var lives=3;
 
 var ballRadius = 10;
 
@@ -97,7 +98,37 @@ function draw(){
 		if(x > paddleX && x < paddleX + paddleWidth) {
 			dy = -dy
 		}else {
-			if(!alert("Game Over")){window.location.reload();}
+				lives= lives-1;
+				if (lives<0 ||score=60 ){
+					 x = canvas.width/2;
+					 y = canvas.height - 30;
+					 dx = 2;
+					 dy = -2;
+
+					 score = 0;
+					 lives= 3;
+
+					 ballRadius = 10;
+
+					 paddleHeight = 10;
+					 paddleWidth = 75;
+					 paddleX = (canvas.width - paddleWidth)/2;
+
+					 rightPressed = false;
+					 leftPressed = false;
+
+					 brickRowCount = 10;
+					 brickColumnCount = 6;
+					 brickWidth = canvas.width/6;
+					 brickHeight = 20;
+					 brickPadding = 2;          
+					 brickOffsetTop = 2;
+					 brickOffsetLeft = 00;
+					 bricks = [];
+					 document.location.reload();
+					
+				}
+
 		}
 	}
 
