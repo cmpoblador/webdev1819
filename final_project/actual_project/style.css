@@ -1,0 +1,77 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 847.5px;
+}
+
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+.question {
+  font-size: 5vw;
+  font-family: 'Aladin', cursive;
+  text-align: center;
+}
+
+.color {
+  color:#902147;
+}
+
+#myCanvas {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+#zolguy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container .btn {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+#page2 {
+
+  transform: translate(-100%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+
+}
+
+#submita{
+  transform: translate(-45%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.btn {
+  border-radius: 1px;
+  text-align: center;
+  font-family: 'Aladin', cursive;
+  font-size: 2.5vw;
+  color:#fac200;
+  background-color: #902147;
+  padding: 3% 6%;
+  border: none;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  position: inherit;
+}
+.btn:hover{
+    background-color:#cf0073;
+    color:#fedd27;
+}
+
+img {
+    margin: 0px;
+}
